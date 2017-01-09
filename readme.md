@@ -17,4 +17,13 @@ And also the imports (still in project.json) :
 
 For now, loading an assembly through a stream is done using `AssemblyLoadContext.Default.LoadFromStream` method but it may change in futur releases of .NET Core
 
+As always :
+
+```bash
+dotnet restore
+dotnet build
+dotnet run
+```
+
+
 Finally, the base code is inspired from this [Stackoverflow post](http://stackoverflow.com/a/29417053/4739462)
